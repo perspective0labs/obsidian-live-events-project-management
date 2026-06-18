@@ -4,7 +4,7 @@ set -e
 
 REPO="perspective0labs/obsidian-live-events-project-management"
 RAW="https://raw.githubusercontent.com/$REPO/main/plugins"
-PLUGINS=("obsidian-mastertour" "obsidian-google-workspace" "obsidian-google-chat")
+PLUGINS=("obsidian-mastertour" "obsidian-google-workspace" "obsidian-google-chat" "claude-desktop-mirror")
 
 echo ""
 echo "Obsidian Live Events Project Management"
@@ -44,6 +44,6 @@ echo ""
 echo "Next steps:"
 echo "  1. Open Obsidian and select your vault at: $VAULT_PATH"
 echo "  2. Go to Settings → Community Plugins → turn off Restricted Mode"
-echo "  3. Enable: Mastertour, Google Workspace, Google Chat"
+echo "  3. Enable: Mastertour, Google Workspace, Google Chat, Claude Desktop Mirror"
 echo "  4. Configure each plugin with your API credentials in Settings"
 echo ""

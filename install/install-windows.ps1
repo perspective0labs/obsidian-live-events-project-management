@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 
 $Repo    = "perspective0labs/obsidian-live-events-project-management"
 $Raw     = "https://raw.githubusercontent.com/$Repo/main/plugins"
-$Plugins = @("obsidian-mastertour", "obsidian-google-workspace", "obsidian-google-chat")
+$Plugins = @("obsidian-mastertour", "obsidian-google-workspace", "obsidian-google-chat", "claude-desktop-mirror")
 
 Write-Host ""
 Write-Host "Obsidian Live Events Project Management"
@@ -43,6 +43,6 @@ Write-Host ""
 Write-Host "Next steps:"
 Write-Host "  1. Open Obsidian and select your vault at: $VaultPath"
 Write-Host "  2. Go to Settings -> Community Plugins -> turn off Restricted Mode"
-Write-Host "  3. Enable: Mastertour, Google Workspace, Google Chat"
+Write-Host "  3. Enable: Mastertour, Google Workspace, Google Chat, Claude Desktop Mirror"
 Write-Host "  4. Configure each plugin with your API credentials in Settings"
 Write-Host ""

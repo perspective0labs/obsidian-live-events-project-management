@@ -9,6 +9,7 @@ A toolkit for live event professionals using [Obsidian](https://obsidian.md) —
 | **Mastertour** | Browse tours, view daily schedules, venue info, advances, and crew. Export days to calendar or email. |
 | **Google Workspace** | Access Google Drive, Docs, Sheets, and Slides from inside Obsidian. |
 | **Google Chat** | Read and send Google Chat messages without leaving your notes. |
+| **Claude Desktop Mirror** | Mirror Claude Desktop conversations and context into your Obsidian vault. |
 
 ## Quick Install
 
