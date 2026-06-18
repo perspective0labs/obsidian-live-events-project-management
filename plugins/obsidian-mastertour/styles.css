@@ -1,0 +1,373 @@
+/* ── Mastertour Plugin Styles ─────────────────────────────────────────────── */
+
+/* ── Shared layout ────────────────────────────────────────────────────────── */
+.mt-browser,
+.mt-day-view,
+.mt-today-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mt-body,
+.mt-day-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 0 8px;
+}
+
+/* ── Header ───────────────────────────────────────────────────────────────── */
+.mt-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  flex-shrink: 0;
+}
+
+.mt-header-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  flex: 1;
+  color: var(--text-normal);
+}
+
+.mt-header-icon {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  color: var(--interactive-accent);
+}
+
+/* ── Toolbar ──────────────────────────────────────────────────────────────── */
+.mt-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  flex-shrink: 0;
+}
+
+.mt-toolbar-label {
+  flex: 1;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── Buttons ──────────────────────────────────────────────────────────────── */
+.mt-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.mt-icon-btn:hover { background: var(--background-modifier-hover); color: var(--text-normal); }
+
+.mt-icon-btn-sm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-s);
+  color: var(--text-faint);
+  cursor: pointer;
+  flex-shrink: 0;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.mt-icon-btn-sm:hover { color: var(--text-normal); background: var(--background-modifier-hover); }
+
+.mt-btn-sm {
+  padding: 3px 10px;
+  font-size: 12px;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border: none;
+  border-radius: var(--radius-s);
+  cursor: pointer;
+}
+.mt-btn-sm:hover { opacity: 0.85; }
+
+/* ── Loading / Error states ───────────────────────────────────────────────── */
+.mt-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 24px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.mt-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--background-modifier-border);
+  border-top-color: var(--interactive-accent);
+  border-radius: 50%;
+  animation: mt-spin 0.7s linear infinite;
+}
+
+@keyframes mt-spin { to { transform: rotate(360deg); } }
+
+.mt-error {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 12px;
+  margin: 8px;
+  background: var(--background-modifier-error);
+  border-radius: var(--radius-m);
+  color: var(--text-error);
+  font-size: 12px;
+}
+
+.mt-error-icon { display: flex; width: 16px; height: 16px; flex-shrink: 0; margin-top: 1px; }
+
+.mt-empty {
+  padding: 20px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* ── Tour Browser ─────────────────────────────────────────────────────────── */
+.mt-tour-item {
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.mt-tour-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 8px 8px 10px;
+  cursor: pointer;
+}
+.mt-tour-row:hover { background: var(--background-modifier-hover); }
+.mt-tour-row:hover .mt-icon-btn-sm { opacity: 1; }
+
+.mt-chevron { display: flex; width: 14px; height: 14px; color: var(--text-faint); flex-shrink: 0; }
+
+.mt-tour-info { flex: 1; min-width: 0; }
+.mt-tour-name { font-size: 13px; font-weight: 500; color: var(--text-normal); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mt-tour-meta { font-size: 11px; color: var(--text-muted); margin-top: 1px; }
+.mt-tour-id   { font-size: 10px; color: var(--text-faint); font-family: var(--font-monospace); margin-top: 2px; }
+
+.mt-tour-actions { display: flex; gap: 2px; }
+
+/* Days list under a tour */
+.mt-tour-days { background: var(--background-primary-alt); border-top: 1px solid var(--background-modifier-border); }
+.mt-hidden { display: none !important; }
+
+.mt-day-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px 6px 28px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--background-modifier-border-hover);
+  position: relative;
+}
+.mt-day-row:hover { background: var(--background-modifier-hover); }
+.mt-day-row:hover .mt-icon-btn-sm { opacity: 1; }
+
+.mt-day-today {
+  background: color-mix(in srgb, var(--interactive-accent) 8%, transparent);
+  border-left: 3px solid var(--interactive-accent);
+  padding-left: 25px;
+}
+
+.mt-today-badge {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--interactive-accent);
+  background: color-mix(in srgb, var(--interactive-accent) 12%, transparent);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+.mt-day-date { font-size: 12px; font-family: var(--font-monospace); color: var(--text-normal); flex-shrink: 0; min-width: 82px; }
+.mt-day-loc  { font-size: 12px; color: var(--text-muted); flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mt-day-actions { display: flex; gap: 2px; }
+.mt-empty-days { padding: 8px 28px; font-size: 12px; color: var(--text-faint); }
+
+/* ── Day Detail View ──────────────────────────────────────────────────────── */
+.mt-day-header {
+  padding: 16px;
+  background: linear-gradient(to bottom, var(--background-secondary), var(--background-primary));
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.mt-day-date-big { font-size: 18px; font-weight: 700; color: var(--text-normal); }
+.mt-day-loc-big  { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+.mt-day-tz       { font-size: 11px; color: var(--text-faint); margin-top: 4px; }
+
+.mt-day-type-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--interactive-accent);
+  background: color-mix(in srgb, var(--interactive-accent) 12%, transparent);
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-top: 6px;
+}
+
+/* Sections */
+.mt-section { padding: 12px 16px; border-bottom: 1px solid var(--background-modifier-border); }
+.mt-section-hdr { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
+.mt-section-icon { display: flex; width: 14px; height: 14px; color: var(--text-muted); }
+.mt-section-title { font-size: 12px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* Venue card */
+.mt-vcard { padding: 8px 0; }
+.mt-vcard-name { font-size: 14px; font-weight: 600; color: var(--text-normal); }
+.mt-vcard-addr { font-size: 12px; color: var(--text-muted); margin-top: 3px; }
+.mt-vcard-meta { font-size: 12px; color: var(--text-faint); margin-top: 2px; }
+.mt-vcard-url  { font-size: 12px; color: var(--interactive-accent); cursor: pointer; margin-top: 2px; display: block; }
+
+/* Contacts */
+.mt-contact-list { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; }
+.mt-contact-row  { display: flex; flex-direction: column; gap: 2px; }
+.mt-contact-name { font-size: 12px; font-weight: 500; color: var(--text-normal); }
+.mt-contact-role { font-size: 11px; color: var(--text-muted); }
+.mt-contact-link { font-size: 11px; color: var(--interactive-accent); text-decoration: none; }
+
+/* Schedule */
+.mt-schedule-list { display: flex; flex-direction: column; gap: 2px; }
+.mt-sched-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--background-modifier-border-hover);
+}
+.mt-sched-time { font-size: 11px; font-weight: 600; color: var(--interactive-accent); min-width: 130px; flex-shrink: 0; font-family: var(--font-monospace); }
+.mt-sched-info { display: flex; flex-direction: column; gap: 2px; }
+.mt-sched-title { font-size: 12px; color: var(--text-normal); }
+.mt-sched-details { font-size: 11px; color: var(--text-muted); }
+.mt-sched-unconfirmed { opacity: 0.6; }
+.mt-sched-unconf-badge { font-size: 10px; color: var(--text-error); font-weight: 700; }
+
+/* Notes */
+.mt-notes { font-size: 12px; color: var(--text-normal); line-height: 1.6; }
+.mt-notes-line { min-height: 1em; }
+.mt-notes-link { color: var(--interactive-accent); text-decoration: none; word-break: break-all; }
+.mt-notes-link:hover { text-decoration: underline; }
+.mt-drive-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  margin: 3px 0;
+  background: color-mix(in srgb, var(--interactive-accent) 12%, transparent);
+  color: var(--interactive-accent);
+  border-radius: var(--radius-s);
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mt-drive-link:hover { background: color-mix(in srgb, var(--interactive-accent) 22%, transparent); }
+
+/* ── Today View ───────────────────────────────────────────────────────────── */
+.mt-today-banner {
+  padding: 20px 16px 16px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--interactive-accent) 15%, transparent), var(--background-secondary));
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.mt-today-date { font-size: 20px; font-weight: 700; color: var(--text-normal); }
+.mt-today-loc  { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+.mt-today-type { font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--interactive-accent); margin-top: 4px; }
+.mt-today-actions { display: flex; gap: 8px; margin-top: 12px; }
+.mt-today-section-hdr { padding: 10px 16px 4px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+.mt-today-sched { padding: 0 16px 8px; }
+.mt-today-sched .mt-sched-row { padding: 6px 0; }
+
+.mt-off-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  text-align: center;
+}
+.mt-off-day-date { font-size: 16px; font-weight: 600; color: var(--text-normal); }
+.mt-off-day-msg  { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+
+/* ── Crew Modal ───────────────────────────────────────────────────────────── */
+.mt-crew-modal .mt-modal-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.mt-crew-modal h2 { margin: 0; flex: 1; font-size: 16px; }
+.mt-crew-list { display: flex; flex-direction: column; gap: 1px; max-height: 60vh; overflow-y: auto; }
+.mt-crew-row { display: flex; align-items: flex-start; justify-content: space-between; padding: 8px 4px; border-bottom: 1px solid var(--background-modifier-border); }
+.mt-crew-info { display: flex; flex-direction: column; gap: 2px; }
+.mt-crew-name { font-size: 13px; font-weight: 500; color: var(--text-normal); }
+.mt-crew-role { font-size: 11px; color: var(--text-muted); }
+.mt-crew-contacts { display: flex; flex-direction: column; gap: 2px; text-align: right; }
+
+/* ── Settings ─────────────────────────────────────────────────────────────── */
+.mt-settings-note { font-size: 12px; color: var(--text-muted); margin-bottom: 16px; }
+
+/* ── Ribbon ───────────────────────────────────────────────────────────────── */
+.mt-ribbon { color: var(--interactive-accent); }
+
+/* ── Selectable text ──────────────────────────────────────────────────────── */
+.mt-day-body,
+.mt-day-body * {
+  user-select: text;
+  -webkit-user-select: text;
+  cursor: auto;
+}
+.mt-icon-btn, .mt-icon-btn-sm, .mt-btn-sm {
+  cursor: pointer;
+}
+
+/* ── Files ────────────────────────────────────────────────────────────────── */
+.mt-file-list { display: flex; flex-direction: column; gap: 4px; }
+.mt-file-row { display: flex; align-items: center; gap: 8px; padding: 5px 0; border-bottom: 1px solid var(--background-modifier-border-hover); }
+.mt-file-icon { display: flex; width: 14px; height: 14px; color: var(--text-muted); flex-shrink: 0; }
+.mt-file-link { font-size: 12px; color: var(--interactive-accent); text-decoration: none; flex: 1; cursor: pointer; }
+.mt-file-link:hover { text-decoration: underline; }
+.mt-file-name { font-size: 12px; color: var(--text-normal); flex: 1; }
+.mt-file-date { font-size: 11px; color: var(--text-faint); flex-shrink: 0; }
+
+/* ── Debug ────────────────────────────────────────────────────────────────── */
+.mt-debug {
+  font-size: 10px;
+  font-family: var(--font-monospace);
+  color: var(--text-muted);
+  white-space: pre-wrap;
+  word-break: break-all;
+  line-height: 1.4;
+  max-height: 300px;
+  overflow-y: auto;
+  user-select: text;
+  -webkit-user-select: text;
+}

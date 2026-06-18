@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-google-workspace",
+  "name": "Google Workspace",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Google Workspace integration: Drive, Chat, Keep, Docs, Sheets, and NotebookLM panels inside Obsidian.",
+  "author": "perspective0labs",
+  "authorUrl": "https://github.com/perspective0labs",
+  "isDesktopOnly": false
+}

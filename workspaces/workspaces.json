@@ -1,0 +1,1456 @@
+{
+  "workspaces": {
+    "One": {
+      "main": {
+        "id": "ab6bda0db15cab1a",
+        "type": "split",
+        "children": [
+          {
+            "id": "4dfcff73a7a89bb7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "654683e8ecb60e16",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "Untitled.base",
+                    "viewName": "Table"
+                  },
+                  "icon": "lucide-table",
+                  "title": "Untitled"
+                }
+              },
+              {
+                "id": "b940613e3adbd17a",
+                "type": "leaf",
+                "state": {
+                  "type": "task-genius-changelog",
+                  "state": {},
+                  "icon": "task-genius",
+                  "title": "Changelog"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "7c316e3f913c85bb",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "d245140e6e54f40d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "30c1c0127b0f1a3a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "232a17297363f480",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3675f132a0f8c39d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b6fed3d17c7ff143",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "right": {
+        "id": "18904eb1c829ae58",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "69c71787b870d640",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "cdb4f533abd20823",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "a3e4b99c2fee4066",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "markdown-importer:Open format converter": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-importer:Open Importer": false,
+          "obsidian-task-progress-bar:Open Task Genius view": false
+        }
+      },
+      "active": "654683e8ecb60e16",
+      "mtime": "2026-06-05T19:53:25+08:00"
+    },
+    "4 window chris neuralmap": {
+      "main": {
+        "id": "ff87d0bfb1d4cb1f",
+        "type": "split",
+        "children": [
+          {
+            "id": "8d8265e7cb047bb7",
+            "type": "split",
+            "children": [
+              {
+                "id": "bd9c6d0b36d1c5a1",
+                "type": "tabs",
+                "dimension": 67.61363636363636,
+                "children": [
+                  {
+                    "id": "fa566a2e544a20cb",
+                    "type": "leaf",
+                    "state": {
+                      "type": "graph",
+                      "state": {},
+                      "icon": "lucide-git-fork",
+                      "title": "Graph view"
+                    }
+                  }
+                ],
+                "stacked": true
+              },
+              {
+                "id": "55d54ebd530870f7",
+                "type": "tabs",
+                "dimension": 32.38636363636363,
+                "children": [
+                  {
+                    "id": "2456f6e6686f5686",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "terminal:terminal",
+                      "state": {
+                        "terminal:terminal": {
+                          "cwd": "C:\\Obsidian\\mdoublesee\\Obsidian-mdoublesee",
+                          "focus": false,
+                          "profile": {
+                            "followTheme": true,
+                            "name": "",
+                            "restoreHistory": false,
+                            "rightClickAction": "copyPaste",
+                            "successExitCodes": [
+                              "0",
+                              "SIGINT",
+                              "SIGTERM"
+                            ],
+                            "terminalOptions": {
+                              "documentOverride": null
+                            },
+                            "type": "developerConsole"
+                          },
+                          "profileSourceId": "developerConsole",
+                          "serial": null,
+                          "userTitle": ""
+                        }
+                      },
+                      "pinned": true,
+                      "icon": "terminal",
+                      "title": "Terminal: Developer console"
+                    }
+                  },
+                  {
+                    "id": "b5c78a7d093ec214",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "terminal:terminal",
+                      "state": {
+                        "terminal:terminal": {
+                          "cwd": "C:\\Obsidian\\mdoublesee\\Obsidian-mdoublesee",
+                          "focus": false,
+                          "profile": {
+                            "followTheme": true,
+                            "name": "",
+                            "restoreHistory": false,
+                            "rightClickAction": "copyPaste",
+                            "successExitCodes": [
+                              "0",
+                              "SIGINT",
+                              "SIGTERM"
+                            ],
+                            "terminalOptions": {
+                              "documentOverride": null
+                            },
+                            "type": "developerConsole"
+                          },
+                          "profileSourceId": "developerConsole",
+                          "serial": null,
+                          "userTitle": ""
+                        }
+                      },
+                      "pinned": true,
+                      "icon": "terminal",
+                      "title": "Terminal: Developer console"
+                    }
+                  },
+                  {
+                    "id": "ad0a96a9281500a1",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Untitled 2.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "Untitled 2"
+                    }
+                  },
+                  {
+                    "id": "257076623d343c3b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "project-garden",
+                      "state": {},
+                      "icon": "lucide-file",
+                      "title": "Project Garden"
+                    }
+                  },
+                  {
+                    "id": "54b45b35aa845188",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Gryphon/Skills/README.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "README"
+                    }
+                  },
+                  {
+                    "id": "f0d1d7450452a756",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "google client secret.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "google client secret"
+                    }
+                  },
+                  {
+                    "id": "7fb0dbdfcba160e8",
+                    "type": "leaf",
+                    "state": {
+                      "type": "canvas",
+                      "state": {
+                        "file": "Untitled 2.canvas",
+                        "viewState": {
+                          "x": 310,
+                          "y": -740,
+                          "zoom": -1.0291463456595165
+                        }
+                      },
+                      "icon": "lucide-layout-dashboard",
+                      "title": "Untitled 2"
+                    }
+                  }
+                ],
+                "currentTab": 4
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "2ff1a26791498942",
+        "type": "split",
+        "children": [
+          {
+            "id": "da56012f202517d2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "482cb5b5f13a6e36",
+                "type": "leaf",
+                "state": {
+                  "type": "arcadia-projects-view",
+                  "state": {},
+                  "icon": "layout-dashboard",
+                  "title": "Arcadia Projects"
+                }
+              },
+              {
+                "id": "a8cf0bf9b0f739b7",
+                "type": "leaf",
+                "state": {
+                  "type": "fm-dashboard-view",
+                  "state": {},
+                  "icon": "dollar-sign",
+                  "title": "Freelance Manager"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 309.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "9b7c2adbf8592714",
+        "type": "split",
+        "children": [
+          {
+            "id": "e86c461802f4dc3b",
+            "type": "tabs",
+            "dimension": 43.42532467532468,
+            "children": [
+              {
+                "id": "52fa7a04a9a7c8da",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Hall 3.png_1.png",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Hall 3.png_1"
+                }
+              },
+              {
+                "id": "767a2b7b4d87ff5e",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "dc037658ab9a2ee7",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "4fe0c56828434070",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "bd289644f9398ec1",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              },
+              {
+                "id": "035be4d622583450",
+                "type": "leaf",
+                "state": {
+                  "type": "planner-timeline",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Timeline"
+                }
+              },
+              {
+                "id": "82ec9de8ab39577b",
+                "type": "leaf",
+                "state": {
+                  "type": "planner-time-tracker",
+                  "state": {},
+                  "icon": "timer",
+                  "title": "Time Tracker"
+                }
+              },
+              {
+                "id": "0ac97cd85cf1fdc2",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-connections-view",
+                  "state": {},
+                  "icon": "smart-connections",
+                  "title": "Connections"
+                }
+              },
+              {
+                "id": "f9fcdef230864060",
+                "type": "leaf",
+                "state": {
+                  "type": "llm-helper-chat",
+                  "state": {},
+                  "icon": "messages-square",
+                  "title": "LLM Chat"
+                }
+              },
+              {
+                "id": "80e6d0eae63be106",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "google gemini api key",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "8bb0adf5ece0aa83",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "53ce65fa0bc4ace5",
+                "type": "leaf",
+                "state": {
+                  "type": "gtd-forecast",
+                  "state": {},
+                  "icon": "calendar-clock",
+                  "title": "Forecast"
+                }
+              },
+              {
+                "id": "bd715b399ace3a52",
+                "type": "leaf",
+                "state": {
+                  "type": "gtd-review",
+                  "state": {},
+                  "icon": "eye",
+                  "title": "Review"
+                }
+              },
+              {
+                "id": "ea96f0dab38fd9b7",
+                "type": "leaf",
+                "state": {
+                  "type": "gtd-perspectives",
+                  "state": {},
+                  "icon": "telescope",
+                  "title": "Perspectives"
+                }
+              },
+              {
+                "id": "d0434cc98fb341b3",
+                "type": "leaf",
+                "state": {
+                  "type": "gtd-timeline",
+                  "state": {},
+                  "icon": "gantt-chart",
+                  "title": "Timeline"
+                }
+              },
+              {
+                "id": "de9b3a42d92f57ae",
+                "type": "leaf",
+                "state": {
+                  "type": "athena-view",
+                  "state": {},
+                  "icon": "brain",
+                  "title": "Athena"
+                }
+              },
+              {
+                "id": "1303ebbd35cb38c3",
+                "type": "leaf",
+                "state": {
+                  "type": "gpt-chat-view",
+                  "state": {},
+                  "icon": "message-square",
+                  "title": "AI-Vault"
+                }
+              }
+            ],
+            "currentTab": 5
+          },
+          {
+            "id": "4269c8bc5906baa7",
+            "type": "tabs",
+            "dimension": 56.574675324675326,
+            "children": [
+              {
+                "id": "b548940ebd3ccf8b",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "Hall 3.png_1.png"
+                  },
+                  "icon": "lucide-image",
+                  "title": "Hall 3.png_1"
+                }
+              },
+              {
+                "id": "1af84189b547ad32",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-release-notes-view",
+                  "state": {},
+                  "icon": "file-text",
+                  "title": "Release Notes"
+                }
+              },
+              {
+                "id": "695478cb07dc30a2",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              },
+              {
+                "id": "bf4e2ea7617f8ea3",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              },
+              {
+                "id": "7e0e230f0522a031",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "6384b0e3abb04064",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "about:blank",
+                    "mode": "blank"
+                  },
+                  "icon": "globe-2",
+                  "title": "New web viewer"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 711.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-google-chat:Google Chat": false,
+          "markdown-importer:Open format converter": false,
+          "zk-prefixer:Create new unique note": false,
+          "random-note:Open random note": false,
+          "publish:Publish changes...": false,
+          "obsidian-google-workspace:Google Workspace": false,
+          "obsidian-mastertour:Mastertour": false,
+          "claude-desktop-mirror:Claude Desktop Mirror": false,
+          "google-drive-sync:Push to Google Drive": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
+          "excel:Create Excel File": false,
+          "terminal:Open terminal": false,
+          "local-llm-helper:LLM Helper": false,
+          "obsidian-day-planner:Open Timeline": false,
+          "obsidian-day-planner:Open Multi-Day View": false,
+          "obsidian-importer:Open Importer": false,
+          "smart-connections:Smart Connections: Open connections view": false,
+          "smart-connections:Toggle Footer Connections": false,
+          "smart-connections:Smart Connections: Open random connection": false,
+          "smart-lookup:Smart Lookup: Open lookup view": false,
+          "audio-recorder:Start/stop recording": false,
+          "obsidian-project-garden:Project Garden": false,
+          "ai-vault:AI-Vault Chat": false,
+          "ai-vault:AI-Vault History": false,
+          "ai-vault:AI-Vault Projects": false,
+          "gtd-flow:GTD: Next actions": false,
+          "gtd-flow:GTD: Forecast": false,
+          "gtd-flow:GTD: Review": false,
+          "gtd-flow:GTD: Perspectives": false,
+          "gtd-flow:GTD: Timeline": false,
+          "gtd-flow:GTD: Capture task": false,
+          "arcadia-projects:Open Arcadia Projects": false,
+          "freelance-manager:Freelance Manager": false,
+          "athena:Open Athena": false,
+          "athena:Athena Search": false,
+          "smart-templates:Smart Templates: Open template context": false,
+          "github-sync:Sync with Remote": false,
+          "obsidian-google-tasks:Google Tasks": false,
+          "homepage:Open homepage": false,
+          "mantle-kanban:Create New Kanban Board": false,
+          "project-manager:Project manager": false,
+          "obsidian-task-progress-bar:Open Task Genius view": false,
+          "taskmap:New taskmap": false,
+          "apex-dashboard:Open dashboard": false,
+          "fit:Sync to GitHub": false
+        }
+      },
+      "active": "fa566a2e544a20cb",
+      "mtime": "2026-06-18T04:45:48+08:00"
+    },
+    "chris 6 windows w chatbots": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "a1f5ff15ab29b087",
+            "type": "split",
+            "children": [
+              {
+                "id": "14cb547731ecfbf3",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "34bb939691272242",
+                    "type": "leaf",
+                    "state": {
+                      "type": "pm-project",
+                      "state": {
+                        "filePath": "Projects/Raindance Festival 2026.md"
+                      },
+                      "icon": "chart-gantt",
+                      "title": "Raindance…"
+                    }
+                  },
+                  {
+                    "id": "80f83d8672264260",
+                    "type": "leaf",
+                    "state": {
+                      "type": "gw-drive-view",
+                      "state": {},
+                      "icon": "lucide-ghost",
+                      "title": "gw-drive-view"
+                    }
+                  },
+                  {
+                    "id": "5a99da77a81fb966",
+                    "type": "leaf",
+                    "state": {
+                      "type": "gw-docs-view",
+                      "state": {},
+                      "icon": "lucide-ghost",
+                      "title": "gw-docs-view"
+                    }
+                  },
+                  {
+                    "id": "5177025755429307",
+                    "type": "leaf",
+                    "state": {
+                      "type": "gw-sheets-view",
+                      "state": {},
+                      "icon": "lucide-ghost",
+                      "title": "gw-sheets-view"
+                    }
+                  },
+                  {
+                    "id": "9686791f0b34f8e1",
+                    "type": "leaf",
+                    "state": {
+                      "type": "gw-notebooklm-view",
+                      "state": {},
+                      "icon": "gw-nlm",
+                      "title": "NotebookLM"
+                    }
+                  },
+                  {
+                    "id": "7cbaa9342fde5ce0",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://docs.google.com/spreadsheets/d/1-jLrgybu01TRWvOftU_on8ota_CmRVED/edit?gid=107534767#gid=107534767",
+                        "title": "2025 - Prep Template updated - PERSPECIVE LABS CREATIVE.xlsx - Google Sheets",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "2025 - Prep Template updated - PERSPECIVE LABS CREATIVE.xlsx - Google Sheets"
+                    }
+                  },
+                  {
+                    "id": "a7ae53cf97b768f7",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "terminal:terminal",
+                      "state": {
+                        "terminal:terminal": {
+                          "cwd": "C:\\Obsidian\\mdoublesee\\Obsidian-mdoublesee",
+                          "focus": false,
+                          "profile": {
+                            "args": [],
+                            "environment": [],
+                            "executable": "C:\\Windows\\System32\\cmd.exe",
+                            "followTheme": true,
+                            "name": "",
+                            "platforms": {
+                              "win32": true
+                            },
+                            "pythonExecutable": "python3",
+                            "restoreHistory": false,
+                            "rightClickAction": "copyPaste",
+                            "successExitCodes": [
+                              "0",
+                              "SIGINT",
+                              "SIGTERM"
+                            ],
+                            "terminalOptions": {
+                              "documentOverride": null
+                            },
+                            "type": "integrated",
+                            "useWin32Conhost": true
+                          },
+                          "profileSourceId": "win32IntegratedDefault",
+                          "serial": null,
+                          "userTitle": ""
+                        }
+                      },
+                      "pinned": true,
+                      "icon": "terminal",
+                      "title": "Terminal: C:\\Windows\\System32\\conhost.exe"
+                    }
+                  },
+                  {
+                    "id": "498b51af3534665b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://notebooklm.google.com/notebook/4260c1b6-d2fd-41b7-9c4f-b1d2ea6be407",
+                        "title": "Rechabites Hall Architectural Elevation and Structural Dimensions - NotebookLM",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "Rechabites Hall Architectural Elevation and Structural Dimensions - NotebookLM"
+                    }
+                  }
+                ],
+                "currentTab": 6
+              },
+              {
+                "id": "4509724f8bf84da7",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "f9707e3521f59426",
+                    "type": "leaf",
+                    "state": {
+                      "type": "pm-dashboard",
+                      "state": {},
+                      "icon": "chart-gantt",
+                      "title": "Projects"
+                    }
+                  },
+                  {
+                    "id": "ebe02901de1100d8",
+                    "type": "leaf",
+                    "state": {
+                      "type": "project-garden",
+                      "state": {},
+                      "icon": "lucide-file",
+                      "title": "Project Garden"
+                    }
+                  },
+                  {
+                    "id": "852c68377a6f1aa6",
+                    "type": "leaf",
+                    "state": {
+                      "type": "apex-dashboard-view",
+                      "state": {},
+                      "icon": "home",
+                      "title": "Dashboard"
+                    }
+                  },
+                  {
+                    "id": "e7a7b303c61786dc",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Home.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "Home"
+                    }
+                  },
+                  {
+                    "id": "f422b5515b3c3866",
+                    "type": "leaf",
+                    "state": {
+                      "type": "fluent-task-genius-view",
+                      "state": {
+                        "currentWorkspace": "ws_1780659884053_v8f5juesi",
+                        "viewMode": "calendar",
+                        "viewModeByViewId": {
+                          "upcoming": "list",
+                          "today": "list",
+                          "projects": "calendar"
+                        },
+                        "searchQuery": "",
+                        "filters": {},
+                        "filterInputValue": "",
+                        "selectedProject": "Raindance-Festival-2026",
+                        "currentViewId": "projects"
+                      },
+                      "icon": "task-genius",
+                      "title": "Task Genius"
+                    }
+                  }
+                ],
+                "currentTab": 4
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "2ff1a26791498942",
+        "type": "split",
+        "children": [
+          {
+            "id": "da56012f202517d2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a8cf0bf9b0f739b7",
+                "type": "leaf",
+                "state": {
+                  "type": "fm-dashboard-view",
+                  "state": {},
+                  "icon": "dollar-sign",
+                  "title": "Freelance Manager"
+                }
+              },
+              {
+                "id": "90d892f1ecc26ce4",
+                "type": "leaf",
+                "state": {
+                  "type": "gw-hub-view",
+                  "state": {},
+                  "icon": "gw-hub",
+                  "title": "Google Workspace"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "ea4b08ec40d27de6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a66b1ace17d359a7",
+                "type": "leaf",
+                "state": {
+                  "type": "claude-desktop-mirror",
+                  "state": {},
+                  "icon": "bot",
+                  "title": "Claude"
+                }
+              },
+              {
+                "id": "3829890001838a29",
+                "type": "leaf",
+                "state": {
+                  "type": "gchat-native-view",
+                  "state": {},
+                  "icon": "message-square",
+                  "title": "Google Chat"
+                }
+              },
+              {
+                "id": "1303ebbd35cb38c3",
+                "type": "leaf",
+                "state": {
+                  "type": "gpt-chat-view",
+                  "state": {},
+                  "icon": "message-square",
+                  "title": "AI-Vault"
+                }
+              },
+              {
+                "id": "f9fcdef230864060",
+                "type": "leaf",
+                "state": {
+                  "type": "llm-helper-chat",
+                  "state": {},
+                  "icon": "messages-square",
+                  "title": "LLM Chat"
+                }
+              },
+              {
+                "id": "de9b3a42d92f57ae",
+                "type": "leaf",
+                "state": {
+                  "type": "athena-view",
+                  "state": {},
+                  "icon": "brain",
+                  "title": "Athena"
+                }
+              },
+              {
+                "id": "d7b7891d139de8ed",
+                "type": "leaf",
+                "state": {
+                  "type": "gw-chat-view",
+                  "state": {},
+                  "icon": "gw-chat",
+                  "title": "Google Chat"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 582.5
+      },
+      "right": {
+        "id": "9b7c2adbf8592714",
+        "type": "split",
+        "children": [
+          {
+            "id": "e86c461802f4dc3b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80e6d0eae63be106",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "google gemini api key",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "a029e7316bc26fbe",
+                "type": "leaf",
+                "state": {
+                  "type": "mt-tour-browser",
+                  "state": {},
+                  "icon": "mt-tours",
+                  "title": "Mastertour"
+                }
+              },
+              {
+                "id": "52fa7a04a9a7c8da",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "177b5231a8973ae5",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto",
+                    "title": "Home - Google Drive",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Home - Google Drive"
+                }
+              },
+              {
+                "id": "82ec9de8ab39577b",
+                "type": "leaf",
+                "state": {
+                  "type": "planner-time-tracker",
+                  "state": {},
+                  "icon": "timer",
+                  "title": "Time Tracker"
+                }
+              },
+              {
+                "id": "53ce65fa0bc4ace5",
+                "type": "leaf",
+                "state": {
+                  "type": "gtd-forecast",
+                  "state": {},
+                  "icon": "calendar-clock",
+                  "title": "Forecast"
+                }
+              },
+              {
+                "id": "bd715b399ace3a52",
+                "type": "leaf",
+                "state": {
+                  "type": "gtd-review",
+                  "state": {},
+                  "icon": "eye",
+                  "title": "Review"
+                }
+              },
+              {
+                "id": "ea96f0dab38fd9b7",
+                "type": "leaf",
+                "state": {
+                  "type": "gtd-perspectives",
+                  "state": {},
+                  "icon": "telescope",
+                  "title": "Perspectives"
+                }
+              },
+              {
+                "id": "d95154b7c7b9d869",
+                "type": "leaf",
+                "state": {
+                  "type": "mt-day-detail",
+                  "state": {},
+                  "icon": "mt-logo",
+                  "title": "Day: fa72077d761e069d17b2b80ed85f3b966eb1cf3b"
+                }
+              },
+              {
+                "id": "d0434cc98fb341b3",
+                "type": "leaf",
+                "state": {
+                  "type": "gtd-timeline",
+                  "state": {},
+                  "icon": "gantt-chart",
+                  "title": "Timeline"
+                }
+              },
+              {
+                "id": "d82d71b8602970f2",
+                "type": "leaf",
+                "state": {
+                  "type": "gtd-next-actions",
+                  "state": {},
+                  "icon": "list-checks",
+                  "title": "Next actions"
+                }
+              },
+              {
+                "id": "815fc1ab7a08bc3e",
+                "type": "leaf",
+                "state": {
+                  "type": "googleTaskView",
+                  "state": {},
+                  "icon": "check-in-circle",
+                  "title": "Google Tasks"
+                }
+              },
+              {
+                "id": "482cb5b5f13a6e36",
+                "type": "leaf",
+                "state": {
+                  "type": "arcadia-projects-view",
+                  "state": {},
+                  "icon": "layout-dashboard",
+                  "title": "Arcadia Projects"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "4269c8bc5906baa7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8bb0adf5ece0aa83",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "9a9a7fea9cd4c030",
+                "type": "leaf",
+                "state": {
+                  "type": "gpt-projects-view",
+                  "state": {},
+                  "icon": "folder-open",
+                  "title": "Projects"
+                }
+              },
+              {
+                "id": "dc037658ab9a2ee7",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "767a2b7b4d87ff5e",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "4fe0c56828434070",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "0ac97cd85cf1fdc2",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-connections-view",
+                  "state": {},
+                  "icon": "smart-connections",
+                  "title": "Connections"
+                }
+              },
+              {
+                "id": "bd289644f9398ec1",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              },
+              {
+                "id": "b548940ebd3ccf8b",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "Hall 3.png_1.png"
+                  },
+                  "icon": "lucide-image",
+                  "title": "Hall 3.png_1"
+                }
+              },
+              {
+                "id": "1af84189b547ad32",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-release-notes-view",
+                  "state": {},
+                  "icon": "file-text",
+                  "title": "Release Notes"
+                }
+              },
+              {
+                "id": "695478cb07dc30a2",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              },
+              {
+                "id": "bf4e2ea7617f8ea3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "🔐 Secrets/API Keys.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "API Keys"
+                }
+              },
+              {
+                "id": "7e0e230f0522a031",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 533.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspaces:Manage workspace layouts": false,
+          "switcher:Open quick switcher": false,
+          "obsidian-google-chat:Google Chat": false,
+          "markdown-importer:Open format converter": false,
+          "zk-prefixer:Create new unique note": false,
+          "random-note:Open random note": false,
+          "publish:Publish changes...": false,
+          "obsidian-google-workspace:Google Workspace": false,
+          "google-drive-sync:Push to Google Drive": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
+          "excel:Create Excel File": false,
+          "terminal:Open terminal": false,
+          "local-llm-helper:LLM Helper": false,
+          "obsidian-day-planner:Open Timeline": false,
+          "obsidian-day-planner:Open Multi-Day View": false,
+          "obsidian-importer:Open Importer": false,
+          "smart-connections:Smart Connections: Open connections view": false,
+          "smart-connections:Toggle Footer Connections": false,
+          "smart-connections:Smart Connections: Open random connection": false,
+          "smart-lookup:Smart Lookup: Open lookup view": false,
+          "audio-recorder:Start/stop recording": false,
+          "obsidian-project-garden:Project Garden": false,
+          "ai-vault:AI-Vault Chat": false,
+          "ai-vault:AI-Vault History": false,
+          "ai-vault:AI-Vault Projects": false,
+          "gtd-flow:GTD: Next actions": false,
+          "gtd-flow:GTD: Forecast": false,
+          "gtd-flow:GTD: Review": false,
+          "gtd-flow:GTD: Perspectives": false,
+          "gtd-flow:GTD: Timeline": false,
+          "gtd-flow:GTD: Capture task": false,
+          "arcadia-projects:Open Arcadia Projects": false,
+          "freelance-manager:Freelance Manager": false,
+          "athena:Open Athena": false,
+          "athena:Athena Search": false,
+          "github-sync:Sync with Remote": false,
+          "obsidian-google-tasks:Google Tasks": false,
+          "homepage:Open homepage": false,
+          "mantle-kanban:Create New Kanban Board": false,
+          "project-manager:Project manager": false,
+          "taskmap:New taskmap": false,
+          "apex-dashboard:Open dashboard": false,
+          "fit:Sync to GitHub": false,
+          "obsidian-mastertour:Mastertour": false,
+          "obsidian-task-progress-bar:Open Task Genius view": false,
+          "smart-templates:Smart Templates: Open template context": false,
+          "claude-desktop-mirror:Claude Desktop Mirror": false
+        }
+      },
+      "active": "9a9a7fea9cd4c030",
+      "mtime": "2026-06-18T07:02:26+08:00"
+    }
+  },
+  "active": "chris 6 windows w chatbots"
+}

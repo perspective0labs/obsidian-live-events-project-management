@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-google-chat",
+  "name": "Google Chat",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Native Google Chat client — spaces, messages, and replies inside Obsidian.",
+  "author": "perspective0labs",
+  "authorUrl": "https://github.com/perspective0labs",
+  "isDesktopOnly": true
+}

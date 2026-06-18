@@ -1,0 +1,876 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1f5ff15ab29b087",
+        "type": "split",
+        "children": [
+          {
+            "id": "14cb547731ecfbf3",
+            "type": "tabs",
+            "dimension": 67.20779220779221,
+            "children": [
+              {
+                "id": "34bb939691272242",
+                "type": "leaf",
+                "state": {
+                  "type": "pm-project",
+                  "state": {
+                    "filePath": "Projects/Raindance Festival 2026.md"
+                  },
+                  "icon": "chart-gantt",
+                  "title": "Raindance…"
+                }
+              },
+              {
+                "id": "80f83d8672264260",
+                "type": "leaf",
+                "state": {
+                  "type": "gw-drive-view",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "gw-drive-view"
+                }
+              },
+              {
+                "id": "5a99da77a81fb966",
+                "type": "leaf",
+                "state": {
+                  "type": "gw-docs-view",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "gw-docs-view"
+                }
+              },
+              {
+                "id": "5177025755429307",
+                "type": "leaf",
+                "state": {
+                  "type": "gw-sheets-view",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "gw-sheets-view"
+                }
+              },
+              {
+                "id": "9686791f0b34f8e1",
+                "type": "leaf",
+                "state": {
+                  "type": "gw-notebooklm-view",
+                  "state": {},
+                  "icon": "gw-nlm",
+                  "title": "NotebookLM"
+                }
+              },
+              {
+                "id": "7cbaa9342fde5ce0",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://docs.google.com/spreadsheets/d/1-jLrgybu01TRWvOftU_on8ota_CmRVED/edit?gid=107534767#gid=107534767",
+                    "title": "2025 - Prep Template updated - PERSPECIVE LABS CREATIVE.xlsx - Google Sheets",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "2025 - Prep Template updated - PERSPECIVE LABS CREATIVE.xlsx - Google Sheets"
+                }
+              },
+              {
+                "id": "a7ae53cf97b768f7",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "C:\\Obsidian\\mdoublesee\\Obsidian-mdoublesee",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "environment": [],
+                        "executable": "C:\\Windows\\System32\\cmd.exe",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "win32": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "win32IntegratedDefault",
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: Select C:\\Windows\\System32\\conhost.exe"
+                }
+              },
+              {
+                "id": "498b51af3534665b",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://notebooklm.google.com/notebook/4260c1b6-d2fd-41b7-9c4f-b1d2ea6be407",
+                    "title": "Rechabites Hall Architectural Elevation and Structural Dimensions - NotebookLM",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Rechabites Hall Architectural Elevation and Structural Dimensions - NotebookLM"
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "4509724f8bf84da7",
+            "type": "tabs",
+            "dimension": 32.7922077922078,
+            "children": [
+              {
+                "id": "f9707e3521f59426",
+                "type": "leaf",
+                "state": {
+                  "type": "pm-dashboard",
+                  "state": {},
+                  "icon": "chart-gantt",
+                  "title": "Projects"
+                }
+              },
+              {
+                "id": "ee4eab7112c4819a",
+                "type": "leaf",
+                "state": {
+                  "type": "pm-project",
+                  "state": {
+                    "filePath": "Projects/Raindance Festival 2026.md"
+                  },
+                  "icon": "chart-gantt",
+                  "title": "Raindance…"
+                }
+              },
+              {
+                "id": "ebe02901de1100d8",
+                "type": "leaf",
+                "state": {
+                  "type": "project-garden",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Project Garden"
+                }
+              },
+              {
+                "id": "852c68377a6f1aa6",
+                "type": "leaf",
+                "state": {
+                  "type": "apex-dashboard-view",
+                  "state": {},
+                  "icon": "home",
+                  "title": "Dashboard"
+                }
+              },
+              {
+                "id": "e7a7b303c61786dc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Home.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Home"
+                }
+              },
+              {
+                "id": "f422b5515b3c3866",
+                "type": "leaf",
+                "state": {
+                  "type": "fluent-task-genius-view",
+                  "state": {
+                    "currentWorkspace": "ws_1780659884053_v8f5juesi",
+                    "viewMode": "calendar",
+                    "viewModeByViewId": {
+                      "upcoming": "list",
+                      "today": "list",
+                      "projects": "calendar"
+                    },
+                    "searchQuery": "",
+                    "filters": {},
+                    "filterInputValue": "",
+                    "selectedProject": "Raindance-Festival-2026",
+                    "currentViewId": "projects"
+                  },
+                  "icon": "task-genius",
+                  "title": "Task Genius"
+                }
+              },
+              {
+                "id": "18a1f141234cef48",
+                "type": "leaf",
+                "state": {
+                  "type": "obsidian-cockpit",
+                  "state": {},
+                  "icon": "layout-dashboard",
+                  "title": "Cockpit"
+                }
+              },
+              {
+                "id": "736dcf14bce1aff3",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              },
+              {
+                "id": "41c2ab193e1e7936",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Idea-2026-06-18.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Idea-2026-06-18"
+                }
+              }
+            ],
+            "currentTab": 8
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ff1a26791498942",
+    "type": "split",
+    "children": [
+      {
+        "id": "da56012f202517d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8cf0bf9b0f739b7",
+            "type": "leaf",
+            "state": {
+              "type": "fm-dashboard-view",
+              "state": {},
+              "icon": "dollar-sign",
+              "title": "Freelance Manager"
+            }
+          },
+          {
+            "id": "90d892f1ecc26ce4",
+            "type": "leaf",
+            "state": {
+              "type": "gw-hub-view",
+              "state": {},
+              "icon": "gw-hub",
+              "title": "Google Workspace"
+            }
+          },
+          {
+            "id": "a029e7316bc26fbe",
+            "type": "leaf",
+            "state": {
+              "type": "mt-tour-browser",
+              "state": {},
+              "icon": "mt-tours",
+              "title": "Mastertour"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "ea4b08ec40d27de6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a66b1ace17d359a7",
+            "type": "leaf",
+            "state": {
+              "type": "claude-desktop-mirror",
+              "state": {},
+              "icon": "bot",
+              "title": "Claude"
+            }
+          },
+          {
+            "id": "3829890001838a29",
+            "type": "leaf",
+            "state": {
+              "type": "gchat-native-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Google Chat"
+            }
+          },
+          {
+            "id": "1303ebbd35cb38c3",
+            "type": "leaf",
+            "state": {
+              "type": "gpt-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "AI-Vault"
+            }
+          },
+          {
+            "id": "f9fcdef230864060",
+            "type": "leaf",
+            "state": {
+              "type": "llm-helper-chat",
+              "state": {},
+              "icon": "messages-square",
+              "title": "LLM Chat"
+            }
+          },
+          {
+            "id": "de9b3a42d92f57ae",
+            "type": "leaf",
+            "state": {
+              "type": "athena-view",
+              "state": {},
+              "icon": "brain",
+              "title": "Athena"
+            }
+          },
+          {
+            "id": "d7b7891d139de8ed",
+            "type": "leaf",
+            "state": {
+              "type": "gw-chat-view",
+              "state": {},
+              "icon": "gw-chat",
+              "title": "Google Chat"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 582.5
+  },
+  "right": {
+    "id": "9b7c2adbf8592714",
+    "type": "split",
+    "children": [
+      {
+        "id": "e86c461802f4dc3b",
+        "type": "tabs",
+        "dimension": 60.71428571428571,
+        "children": [
+          {
+            "id": "80e6d0eae63be106",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"project\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "52fa7a04a9a7c8da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Idea-2026-06-18.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Idea-2026-06-18"
+            }
+          },
+          {
+            "id": "82ec9de8ab39577b",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
+          },
+          {
+            "id": "53ce65fa0bc4ace5",
+            "type": "leaf",
+            "state": {
+              "type": "gtd-forecast",
+              "state": {},
+              "icon": "calendar-clock",
+              "title": "Forecast"
+            }
+          },
+          {
+            "id": "bd715b399ace3a52",
+            "type": "leaf",
+            "state": {
+              "type": "gtd-review",
+              "state": {},
+              "icon": "eye",
+              "title": "Review"
+            }
+          },
+          {
+            "id": "ea96f0dab38fd9b7",
+            "type": "leaf",
+            "state": {
+              "type": "gtd-perspectives",
+              "state": {},
+              "icon": "telescope",
+              "title": "Perspectives"
+            }
+          },
+          {
+            "id": "d95154b7c7b9d869",
+            "type": "leaf",
+            "state": {
+              "type": "mt-day-detail",
+              "state": {},
+              "icon": "mt-logo",
+              "title": "Day: fa72077d761e069d17b2b80ed85f3b966eb1cf3b"
+            }
+          },
+          {
+            "id": "d0434cc98fb341b3",
+            "type": "leaf",
+            "state": {
+              "type": "gtd-timeline",
+              "state": {},
+              "icon": "gantt-chart",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "d82d71b8602970f2",
+            "type": "leaf",
+            "state": {
+              "type": "gtd-next-actions",
+              "state": {},
+              "icon": "list-checks",
+              "title": "Next actions"
+            }
+          },
+          {
+            "id": "482cb5b5f13a6e36",
+            "type": "leaf",
+            "state": {
+              "type": "arcadia-projects-view",
+              "state": {},
+              "icon": "layout-dashboard",
+              "title": "Arcadia Projects"
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "4269c8bc5906baa7",
+        "type": "tabs",
+        "dimension": 39.285714285714285,
+        "children": [
+          {
+            "id": "8bb0adf5ece0aa83",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9a9a7fea9cd4c030",
+            "type": "leaf",
+            "state": {
+              "type": "gpt-projects-view",
+              "state": {},
+              "icon": "folder-open",
+              "title": "Projects"
+            }
+          },
+          {
+            "id": "dc037658ab9a2ee7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "767a2b7b4d87ff5e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Idea-2026-06-18.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Idea-2026-06-18"
+            }
+          },
+          {
+            "id": "4fe0c56828434070",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0ac97cd85cf1fdc2",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "bd289644f9398ec1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Idea-2026-06-18.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Idea-2026-06-18"
+            }
+          },
+          {
+            "id": "b548940ebd3ccf8b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Hall 3.png_1.png"
+              },
+              "icon": "lucide-image",
+              "title": "Hall 3.png_1"
+            }
+          },
+          {
+            "id": "1af84189b547ad32",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
+            }
+          },
+          {
+            "id": "bf4e2ea7617f8ea3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔐 Secrets/API Keys.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "API Keys"
+            }
+          },
+          {
+            "id": "7e0e230f0522a031",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "horizontal",
+    "width": 613.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "obsidian-google-chat:Google Chat": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "publish:Publish changes...": false,
+      "obsidian-google-workspace:Google Workspace": false,
+      "google-drive-sync:Push to Google Drive": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "excel:Create Excel File": false,
+      "terminal:Open terminal": false,
+      "local-llm-helper:LLM Helper": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian-importer:Open Importer": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-lookup:Smart Lookup: Open lookup view": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-project-garden:Project Garden": false,
+      "ai-vault:AI-Vault Chat": false,
+      "ai-vault:AI-Vault History": false,
+      "ai-vault:AI-Vault Projects": false,
+      "gtd-flow:GTD: Next actions": false,
+      "gtd-flow:GTD: Forecast": false,
+      "gtd-flow:GTD: Review": false,
+      "gtd-flow:GTD: Perspectives": false,
+      "gtd-flow:GTD: Timeline": false,
+      "gtd-flow:GTD: Capture task": false,
+      "arcadia-projects:Open Arcadia Projects": false,
+      "freelance-manager:Freelance Manager": false,
+      "athena:Open Athena": false,
+      "athena:Athena Search": false,
+      "github-sync:Sync with Remote": false,
+      "obsidian-google-tasks:Google Tasks": false,
+      "homepage:Open homepage": false,
+      "mantle-kanban:Create New Kanban Board": false,
+      "project-manager:Project manager": false,
+      "taskmap:New taskmap": false,
+      "apex-dashboard:Open dashboard": false,
+      "fit:Sync to GitHub": false,
+      "obsidian-mastertour:Mastertour": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false,
+      "smart-templates:Smart Templates: Open template context": false,
+      "claude-desktop-mirror:Claude Desktop Mirror": false,
+      "project-cockpit:Open cockpit": false,
+      "cockpit-dashboard:Cockpit": false
+    }
+  },
+  "floating": {
+    "id": "9da70cfebcaefcff",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6572ef09fa16f2c8",
+        "type": "window",
+        "children": [
+          {
+            "id": "97ad9346c0fe59d6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a637c63499b3c97c",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/kevinmkchin/Obsidian-GitHub-Sync/blob/main/README.md",
+                    "title": "Obsidian-GitHub-Sync/README.md at main · kevinmkchin/Obsidian-GitHub-Sync",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Obsidian-GitHub-Sync/README.md at main · kevinmkchin/Obsidian-GitHub-Sync"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 512,
+        "y": 216,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "9a9de1ce0100c813",
+        "type": "window",
+        "children": [
+          {
+            "id": "cd339a8be496a2cf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ca740315088b6947",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/kevinmkchin/Obsidian-GitHub-Sync/blob/main/README.md",
+                    "title": "Obsidian-GitHub-Sync/README.md at main · kevinmkchin/Obsidian-GitHub-Sync",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Obsidian-GitHub-Sync/README.md at main · kevinmkchin/Obsidian-GitHub-Sync"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 720,
+        "y": 395,
+        "width": 1024,
+        "height": 801,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "ec050e3b0b1d49dd",
+        "type": "window",
+        "children": [
+          {
+            "id": "e9b2abb6a7c7c713",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7215253546cdebff",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/kevinmkchin/Obsidian-GitHub-Sync/blob/main/README.md",
+                    "title": "Obsidian-GitHub-Sync/README.md at main · kevinmkchin/Obsidian-GitHub-Sync",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Obsidian-GitHub-Sync/README.md at main · kevinmkchin/Obsidian-GitHub-Sync"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 512,
+        "y": 216,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "d95154b7c7b9d869",
+  "lastOpenFiles": [
+    "🤖 AI & Tools/Memory/Project Mastertour Writeapi.md",
+    "Claude Code/Memory/claude/project_mastertour_writeapi.md",
+    "🔐 Secrets/API Keys.md",
+    "🤖 AI & Tools/Memory/Q-SYS Plugin Applications.md",
+    "🤖 AI & Tools/Skills/Q-SYS Skill.md.tmp.54624.69a2983c91ac",
+    "Claude Code/Memory/claude/reference_qsys_plugin_applications.md",
+    "🤖 AI & Tools/Skills/Q-SYS Plugin Applications.md",
+    "🤖 AI & Tools/Skills/Q-SYS Plugin Applications.md.tmp.54624.0ef951571372",
+    "🤖 AI & Tools/Memory/Q-SYS + Lua Scripting Reference.md",
+    "🤖 AI & Tools/Memory/Obsidian Plugins.md",
+    "🤖 AI & Tools/Memory/Docker Policy.md",
+    "🤖 AI & Tools/Memory/Kasm Root Access.md",
+    "🤖 AI & Tools/Memory/RDM Fixture Manager.md",
+    "🤖 AI & Tools/Memory",
+    "🤖 AI & Tools/Skills/Q-SYS Skill.md.tmp.54624.8dc82a1de6b3",
+    "🤖 AI & Tools/Skills/Q-SYS Plugin Dev.md",
+    "Hall 3.png_1.png",
+    "Home.md",
+    "Idea-2026-06-18.md",
+    "_data/toolbar.md",
+    "_data/todos.md",
+    "_data",
+    "Claude Code/Sessions/c--/2026-06-18 - Session 57a24c0d.md",
+    "Claude Code/Memory/c--",
+    "Claude Code/Sessions/c--/2026-06-18 - Session 3741291a.md",
+    "Claude Code/Sessions/c--/2026-06-18 - Session be3e6e43.md",
+    "Claude Code/Sessions/c--/2026-06-18 - Session 37a3ace5.md",
+    "Claude Code/Sessions/c--/2026-06-18 - Session 98704fe3.md",
+    "Claude Code/Sessions/c--/2026-06-18 - Session dcba3372.md",
+    "Claude Code/Sessions/c--/2026-06-18 - Are we here-.md",
+    "Claude Code/Sessions/c--/2026-06-18 - Session 9c36ca02.md",
+    "Claude Code/Sessions/c--/2026-06-18 - Session a938c917.md",
+    "Claude Code/Sessions/c--/2026-06-18 - Session b1d63a41.md",
+    "Claude Code/Sessions/c--",
+    "Claude Code/Sessions/claude",
+    "Claude Code/Sessions/mdoublesee",
+    "Claude Code/Sessions",
+    "Untitled 5.canvas",
+    "Untitled 2.canvas",
+    "Untitled 4.canvas",
+    "Untitled 3.canvas",
+    "Untitled 1.canvas",
+    "AI Assistants/Claude Cowork/Projects/The Rechabite - Venue Vectorworks/CAD & Rigging/tex_wall.png",
+    "AI Assistants/Claude Cowork/Projects/The Rechabite - Venue Vectorworks/CAD & Rigging/tex_stage_fascia.png",
+    "AI Assistants/Claude Cowork/Projects/The Rechabite - Venue Vectorworks/CAD & Rigging/tex_floor_stage.png",
+    "AI Assistants/Claude Cowork/Projects/The Rechabite - Venue Vectorworks/CAD & Rigging/tex_floor_dark.png",
+    "AI Assistants/Claude Cowork/Projects/The Rechabite - Venue Vectorworks/CAD & Rigging/tex_concrete.png",
+    "AI Assistants/Claude Cowork/Projects/The Rechabite - Venue Vectorworks/CAD & Rigging/tex_ceiling.png",
+    "AI Assistants/Claude Cowork/Projects/The Rechabite - Venue Vectorworks/CAD & Rigging/tex_balcony.png",
+    "AI Assistants/Claude Cowork/Projects/The Rechabite - Venue Vectorworks/CAD & Rigging/tex_arch.png",
+    "AI Assistants/Claude Cowork/Projects/The Rechabite - Venue Vectorworks/CAD & Rigging/menu_marked.png",
+    "Untitled.canvas",
+    "Rechabite Rigging.canvas"
+  ]
+}

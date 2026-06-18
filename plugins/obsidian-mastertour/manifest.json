@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-mastertour",
+  "name": "Mastertour",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Mastertour by Eventric integration — browse tours, view daily schedules, venue info, crew, and insert tour data into notes.",
+  "author": "perspective0labs",
+  "authorUrl": "https://github.com/perspective0labs",
+  "isDesktopOnly": false
+}

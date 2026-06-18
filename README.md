@@ -1,0 +1,56 @@
+# Obsidian Live Events Project Management
+
+A toolkit for live event professionals using [Obsidian](https://obsidian.md) — connecting Mastertour, Google Workspace, and Google Chat directly inside your notes.
+
+## Included Plugins
+
+| Plugin | Description |
+|--------|-------------|
+| **Mastertour** | Browse tours, view daily schedules, venue info, advances, and crew. Export days to calendar or email. |
+| **Google Workspace** | Access Google Drive, Docs, Sheets, and Slides from inside Obsidian. |
+| **Google Chat** | Read and send Google Chat messages without leaving your notes. |
+
+## Quick Install
+
+### macOS
+Open Terminal and run:
+```bash
+curl -sL https://raw.githubusercontent.com/perspective0labs/obsidian-live-events-project-management/main/install/install-mac.sh | bash
+```
+
+### Windows
+Open PowerShell and run:
+```powershell
+irm https://raw.githubusercontent.com/perspective0labs/obsidian-live-events-project-management/main/install/install-windows.ps1 | iex
+```
+
+The installer will ask for your vault path and install all three plugins automatically.
+
+## Manual Install
+
+1. Download the plugin files from the `plugins/` folder
+2. Copy each plugin folder to `<your vault>/.obsidian/plugins/`
+3. Restart Obsidian
+4. Go to **Settings → Community Plugins** → turn off Restricted Mode → enable each plugin
+
+## Setup After Installing
+
+### Mastertour
+- Go to **Settings → Mastertour**
+- Enter your **Consumer Key** and **Consumer Secret** from [my.eventric.com](https://my.eventric.com)
+
+### Google Workspace & Google Chat
+- Go to **Settings → Google Workspace** / **Google Chat**
+- Follow the OAuth setup instructions to connect your Google account
+
+## Workspaces
+
+The `workspaces/` folder contains pre-configured Obsidian workspace layouts. To use them:
+1. Copy `workspace.json` and `workspaces.json` to `<your vault>/.obsidian/`
+2. Restart Obsidian
+
+## Requirements
+
+- [Obsidian](https://obsidian.md) v1.4.0 or later
+- A [Mastertour](https://www.eventric.com/mastertour/) account with API access
+- A Google account (for Workspace and Chat plugins)
