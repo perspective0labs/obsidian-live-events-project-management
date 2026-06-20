@@ -41,8 +41,15 @@ The installer will ask for your vault path and install all three plugins automat
 - Enter your **Consumer Key** and **Consumer Secret** from [my.eventric.com](https://my.eventric.com)
 
 ### Google Workspace & Google Chat
-- Go to **Settings → Google Workspace** / **Google Chat**
-- Follow the OAuth setup instructions to connect your Google account
+These two plugins need a Google Cloud project with a few APIs enabled and an OAuth Client ID — see **[GOOGLE_API_SETUP.md](GOOGLE_API_SETUP.md)** for full instructions, including a script that automates most of it:
+
+```bash
+curl -sL https://raw.githubusercontent.com/perspective0labs/obsidian-live-events-project-management/main/install/setup-google-apis.sh | bash
+```
+
+(Windows: `install/setup-google-apis.ps1`)
+
+Then go to **Settings → Google Workspace** / **Google Chat** in Obsidian and paste in the Client ID + Client Secret.
 
 ## Workspaces
 
