@@ -41,15 +41,23 @@ The installer will ask for your vault path and install all three plugins automat
 - Enter your **Consumer Key** and **Consumer Secret** from [my.eventric.com](https://my.eventric.com)
 
 ### Google Workspace & Google Chat
-These two plugins need a Google Cloud project with a few APIs enabled and an OAuth Client ID — see **[GOOGLE_API_SETUP.md](GOOGLE_API_SETUP.md)** for full instructions, including a script that automates most of it:
+These two plugins need a Google Cloud project with a few APIs enabled and an OAuth Client ID.
 
-```bash
-curl -sL https://raw.githubusercontent.com/perspective0labs/obsidian-live-events-project-management/main/install/setup-google-apis.sh | bash
-```
+**Important:** Google does not allow the OAuth consent screen or OAuth Client ID to be created via script — that step **must** be done manually, once, in the Cloud Console. Do that first, then run the script to enable the required APIs.
 
-(Windows: `install/setup-google-apis.ps1`)
+Full walkthrough: **[GOOGLE_API_SETUP.md](GOOGLE_API_SETUP.md)**
 
-Then go to **Settings → Google Workspace** / **Google Chat** in Obsidian and paste in the Client ID + Client Secret.
+Quick version:
+1. **Manually configure** the OAuth consent screen and create an OAuth Client ID (Desktop app type) in [Google Cloud Console](https://console.cloud.google.com/apis/credentials) — see GOOGLE_API_SETUP.md for exact scopes and steps
+2. **Then run the script** to create the project and enable the required APIs (Drive, Chat, People):
+
+   ```bash
+   curl -sL https://raw.githubusercontent.com/perspective0labs/obsidian-live-events-project-management/main/install/setup-google-apis.sh | bash
+   ```
+
+   (Windows: `install/setup-google-apis.ps1`)
+
+3. Go to **Settings → Google Workspace** / **Google Chat** in Obsidian and paste in the Client ID + Client Secret from step 1
 
 ## Workspaces
 
